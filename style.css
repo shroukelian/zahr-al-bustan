@@ -897,3 +897,29 @@ body {
         padding: 15px !important; 
     }
 }
+
+.bottom-bar {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.2); 
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.developer-credit {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.developer-credit a {
+    color: var(--accent); 
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.developer-credit a:hover {
+    color: var(--white);
+    text-shadow: 0 0 10px var(--accent);
+}
+
